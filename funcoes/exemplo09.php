@@ -38,15 +38,18 @@ $hierarquia = array(
                         'subordinados' => array(
                             //inicio: Supervisor de Suprimentos
                             array(
-                                'nome_cargo' => 'Supervisor de Suprimentos' 
+                                'nome_cargo' => 'Supervisor de Suprimentos',
+                                'subordinados' => array(
+                                    array('nome_cargo' => 'Teste')
+                                )
+                                //termino: Supervisor de Suprimentos
                             )
-                            //termino: Supervisor de Suprimentos
                         )
+                        //termino: Gerente de Compras
                     )
-                    //termino: Gerente de Compras
                 )
+                //termino: Diretor Financeiro
             )
-            //termino: Diretor Financeiro
         )
     )
 );
